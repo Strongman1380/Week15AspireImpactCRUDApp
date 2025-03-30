@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #e4f7f5;
+}
+
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  background: #0c2e2c;
+  padding: 1rem;
+  color: white;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input-field {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+}
+
+.add-btn {
+  padding: 10px;
+  background: #2DD3A2;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.program-list {
+  flex-grow: 1;
+  padding: 1rem;
+}
+
+.program-card {
+  background: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid #1e8fe1;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 4px;
+}
+
+.program-card.completed {
+  border-color: #11896a;
+  opacity: 0.85;
+}
+
+.delete-btn {
+  background: #e54b4b;
+  color: white;
+  border: none;
+  margin-left: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
